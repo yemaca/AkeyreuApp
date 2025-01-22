@@ -1,0 +1,416 @@
+After 0.53s, these clients are still here:
+		remaining client pid: 82 (/usr/libexec/cloudpaird/F2EBABA6-4800-3F53-9BDC-6F275DD4A681)
+		remaining client pid: 64 (/System/Library/PrivateFrameworks/NanoTimeKit.framework/nanotimekitd/4C37CE54-2F66-3B89-A65C-314C3CAC833A)
+		remaining client pid: 63 (/usr/libexec/IOMFB_bics_daemon/09AECC3A-734D-3B7D-8233-B38B137604D4)
+		remaining client pid: 48 (/System/Library/PrivateFrameworks/SleepDaemon.framework/sleepd/5DCADFCB-321B-3360-B07E-C6E39E468054)
+		remaining client pid: 0 (/kernel/CE26261F-6434-390F-9A8A-0B16181233B3)
+SIGTERM: [1634804580] All buffers flushed
+After 1.00s, these clients are still here:
+		remaining client pid: 63 (/usr/libexec/IOMFB_bics_daemon/09AECC3A-734D-3B7D-8233-B38B137604D4)
+		remaining client pid: 0 (/kernel/CE26261F-6434-390F-9A8A-0B16181233B3)
+SIGTERM: [1658285576] All buffers flushed
+After 1.09s, these clients are still here:
+		remaining client pid: 63 (/usr/libexec/IOMFB_bics_daemon/09AECC3A-734D-3B7D-8233-B38B137604D4)
+		remaining client pid: 0 (/kernel/CE26261F-6434-390F-9A8A-0B16181233B3)
+SIGTERM: [1658548405] All buffers flushed
+After 0.56s, these clients are still here:
+		remaining client pid: 66 (/usr/libexec/IOMFB_bics_daemon/5E10F9E3-DEFC-30BC-893F-FE388E53E99B)
+		remaining client pid: 38 (/usr/libexec/driverkitd/7138815B-B19D-3C42-B93B-6F4E07C5B71D)
+		remaining client pid: 80 (/usr/sbin/fairplayd.G1/335403C0-17A8-38CA-AB41-F60906C64D1F)
+		remaining client pid: 53 (/usr/sbin/mediaserverd/EFBBACE2-F4E5-33DB-9178-8CF1391F42BB)
+		remaining client pid: 30 (/usr/libexec/UserEventAgent/F21419E5-EBF6-37CF-AE5E-6C8EC38C697D)
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+After 0.62s, these clients are still here:
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+SIGTERM: [1659207537] All buffers flushed
+After 0.75s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/5E10F9E3-DEFC-30BC-893F-FE388E53E99B)
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+SIGTERM: [1659366328] All buffers flushed
+After 0.72s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/5E10F9E3-DEFC-30BC-893F-FE388E53E99B)
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+SIGTERM: [1659479456] All buffers flushed
+After 0.81s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/5E10F9E3-DEFC-30BC-893F-FE388E53E99B)
+		remaining client pid: 28 (/usr/libexec/UserEventAgent/F21419E5-EBF6-37CF-AE5E-6C8EC38C697D)
+		remaining client pid: 69 (/usr/sbin/distnoted/14F0117B-7D94-3033-A6B6-77AF2F9665F7)
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+After 0.83s, these clients are still here:
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+SIGTERM: [1660232150] All buffers flushed
+After 0.69s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/5E10F9E3-DEFC-30BC-893F-FE388E53E99B)
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+SIGTERM: [1660355150] All buffers flushed
+After 0.78s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/5E10F9E3-DEFC-30BC-893F-FE388E53E99B)
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+SIGTERM: [1660697741] All buffers flushed
+After 0.51s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/5E10F9E3-DEFC-30BC-893F-FE388E53E99B)
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+After 0.53s, these clients are still here:
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+SIGTERM: [1661124026] All buffers flushed
+After 0.75s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/5E10F9E3-DEFC-30BC-893F-FE388E53E99B)
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+SIGTERM: [1661509789] All buffers flushed
+After 0.52s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/5E10F9E3-DEFC-30BC-893F-FE388E53E99B)
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+After 0.52s, these clients are still here:
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+SIGTERM: [1662153365] All buffers flushed
+After 0.51s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/5E10F9E3-DEFC-30BC-893F-FE388E53E99B)
+		remaining client pid: 28 (/usr/libexec/UserEventAgent/F21419E5-EBF6-37CF-AE5E-6C8EC38C697D)
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+After 0.52s, these clients are still here:
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+SIGTERM: [1662694218] All buffers flushed
+After 0.55s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/5E10F9E3-DEFC-30BC-893F-FE388E53E99B)
+		remaining client pid: 36 (/usr/libexec/driverkitd/7138815B-B19D-3C42-B93B-6F4E07C5B71D)
+		remaining client pid: 38 (/usr/libexec/configd/01BE4324-69E8-3AAD-AD66-29EF2C3BB6CE)
+		remaining client pid: 51 (/usr/sbin/mediaserverd/EFBBACE2-F4E5-33DB-9178-8CF1391F42BB)
+		remaining client pid: 28 (/usr/libexec/UserEventAgent/F21419E5-EBF6-37CF-AE5E-6C8EC38C697D)
+		remaining client pid: 69 (/usr/sbin/distnoted/14F0117B-7D94-3033-A6B6-77AF2F9665F7)
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+After 0.61s, these clients are still here:
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+SIGTERM: [1663280474] All buffers flushed
+After 0.90s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/5E10F9E3-DEFC-30BC-893F-FE388E53E99B)
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+SIGTERM: [1664048875] All buffers flushed
+After 0.52s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/5E10F9E3-DEFC-30BC-893F-FE388E53E99B)
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+After 0.52s, these clients are still here:
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+SIGTERM: [1665069407] All buffers flushed
+After 0.52s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/5E10F9E3-DEFC-30BC-893F-FE388E53E99B)
+		remaining client pid: 28 (/usr/libexec/UserEventAgent/F21419E5-EBF6-37CF-AE5E-6C8EC38C697D)
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+After 0.53s, these clients are still here:
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+SIGTERM: [1666039568] All buffers flushed
+After 0.54s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/5E10F9E3-DEFC-30BC-893F-FE388E53E99B)
+		remaining client pid: 78 (/usr/sbin/fairplayd.G1/335403C0-17A8-38CA-AB41-F60906C64D1F)
+		remaining client pid: 28 (/usr/libexec/UserEventAgent/F21419E5-EBF6-37CF-AE5E-6C8EC38C697D)
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+SIGTERM: [1666974171] All buffers flushed
+After 0.91s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/5E10F9E3-DEFC-30BC-893F-FE388E53E99B)
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+SIGTERM: [1667212104] All buffers flushed
+After 0.69s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/5E10F9E3-DEFC-30BC-893F-FE388E53E99B)
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+SIGTERM: [1668061886] All buffers flushed
+After 0.51s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/5E10F9E3-DEFC-30BC-893F-FE388E53E99B)
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+SIGTERM: [1668282567] All buffers flushed
+After 0.51s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/5E10F9E3-DEFC-30BC-893F-FE388E53E99B)
+		remaining client pid: 28 (/usr/libexec/UserEventAgent/F21419E5-EBF6-37CF-AE5E-6C8EC38C697D)
+		remaining client pid: 69 (/usr/sbin/distnoted/14F0117B-7D94-3033-A6B6-77AF2F9665F7)
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+After 0.53s, these clients are still here:
+		remaining client pid: 0 (/kernel/53755279-5D19-31EB-B87D-21F9C17CF40A)
+SIGTERM: [1668582696] All buffers flushed
+After 1.07s, these clients are still here:
+		remaining client pid: 66 (/usr/libexec/IOMFB_bics_daemon/CA71E7F0-7F8B-30D8-9578-07A3DF07F447)
+		remaining client pid: 0 (/kernel/885BE842-D4DC-3757-B6B5-CC4F69749AE3)
+SIGTERM: [1668776018] All buffers flushed
+After 0.94s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/CA71E7F0-7F8B-30D8-9578-07A3DF07F447)
+		remaining client pid: 0 (/kernel/885BE842-D4DC-3757-B6B5-CC4F69749AE3)
+SIGTERM: [1669269504] All buffers flushed
+After 0.89s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/CA71E7F0-7F8B-30D8-9578-07A3DF07F447)
+		remaining client pid: 0 (/kernel/885BE842-D4DC-3757-B6B5-CC4F69749AE3)
+SIGTERM: [1670281983] All buffers flushed
+After 1.33s, these clients are still here:
+		remaining client pid: 0 (/kernel/885BE842-D4DC-3757-B6B5-CC4F69749AE3)
+SIGTERM: [1671913244] All buffers flushed
+After 1.09s, these clients are still here:
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/CA71E7F0-7F8B-30D8-9578-07A3DF07F447)
+		remaining client pid: 0 (/kernel/885BE842-D4DC-3757-B6B5-CC4F69749AE3)
+SIGTERM: [1671941993] All buffers flushed
+After 1.05s, these clients are still here:
+		remaining client pid: 124 (/usr/libexec/terminusd/C156C334-A15C-363C-B080-C4A5F14EB0B2)
+		remaining client pid: 0 (/kernel/7C4042C2-5C86-3D87-A8E6-8DFF0AD80D7D)
+SIGTERM: [1674630773] All buffers flushed
+After 1.23s, these clients are still here:
+		remaining client pid: 142 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 66 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1674881402] All buffers flushed
+After 0.59s, these clients are still here:
+		remaining client pid: 130 (/usr/libexec/nsurlsessiond/B1804D0B-E232-3AA5-B26A-FFA6B3D4C5E7)
+		remaining client pid: 125 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 80 (/usr/libexec/locationd/3041B1C7-1F5C-30F4-912D-CA0AE82A9BDE)
+		remaining client pid: 57 (/usr/sbin/bluetoothd/5C6EE873-1124-3A78-B0F6-150AEE948EB6)
+		remaining client pid: 56 (/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/identityservicesd/6F6F1C66-0B79-3016-BCFA-1669DA156437)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 82 (/usr/sbin/fairplayd.G1/F122B3DB-E442-3534-A08D-88962E3720B4)
+		remaining client pid: 38 (/usr/libexec/configd/E9D52F3F-01A1-3515-9EFB-5C5820E912E3)
+		remaining client pid: 52 (/usr/sbin/mediaserverd/860A06BF-DF82-317E-8848-ADD7748FA244)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+After 0.64s, these clients are still here:
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1676241643] All buffers flushed
+After 0.55s, these clients are still here:
+		remaining client pid: 241 (/System/Library/PrivateFrameworks/HealthAlgorithms.framework/XPCServices/DayStreamProcessorService.xpc/DayStreamProcessorService/B487A97E-5EA3-3E92-82E8-92B4E43095EC)
+		remaining client pid: 242 (/System/Library/PrivateFrameworks/HealthAlgorithms.framework/XPCServices/HistoricalAnalyzerService.xpc/HistoricalAnalyzerService/301006F0-B272-357D-A07F-8DA228FA75AD)
+		remaining client pid: 69 (/System/Library/Frameworks/HealthKit.framework/healthd/F060370F-E4C3-3824-AF63-A56488D71799)
+		remaining client pid: 123 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 80 (/usr/libexec/locationd/3041B1C7-1F5C-30F4-912D-CA0AE82A9BDE)
+		remaining client pid: 112 (/usr/libexec/nsurlsessiond/B1804D0B-E232-3AA5-B26A-FFA6B3D4C5E7)
+		remaining client pid: 57 (/usr/sbin/bluetoothd/5C6EE873-1124-3A78-B0F6-150AEE948EB6)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 52 (/usr/sbin/mediaserverd/860A06BF-DF82-317E-8848-ADD7748FA244)
+		remaining client pid: 28 (/usr/libexec/UserEventAgent/7EDD875D-0889-3254-BDF2-946B972F380F)
+		remaining client pid: 70 (/usr/sbin/distnoted/2D9F7146-686C-363F-9297-8B546F043C5E)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+After 1.05s, these clients are still here:
+		remaining client pid: 123 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+After 1.06s, these clients are still here:
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1676445957] All buffers flushed
+After 0.93s, these clients are still here:
+		remaining client pid: 143 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 66 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1678817838] All buffers flushed
+After 0.68s, these clients are still here:
+		remaining client pid: 127 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1679629904] All buffers flushed
+After 0.89s, these clients are still here:
+		remaining client pid: 90 (/System/Library/PrivateFrameworks/NanoPreferencesSync.framework/nanoprefsyncd/C0893A5C-A50D-3362-9E99-81CF91872BFE)
+		remaining client pid: 69 (/System/Library/Frameworks/HealthKit.framework/healthd/F060370F-E4C3-3824-AF63-A56488D71799)
+		remaining client pid: 128 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 80 (/usr/libexec/locationd/3041B1C7-1F5C-30F4-912D-CA0AE82A9BDE)
+		remaining client pid: 51 (/System/Library/PrivateFrameworks/SleepDaemon.framework/sleepd/73557B28-8AAD-38F9-A490-BE539E2FBD32)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+After 0.89s, these clients are still here:
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1679629748] All buffers flushed
+After 0.97s, these clients are still here:
+		remaining client pid: 120 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1681430481] All buffers flushed
+After 1.17s, these clients are still here:
+		remaining client pid: 90 (/System/Library/PrivateFrameworks/NanoPreferencesSync.framework/nanoprefsyncd/C0893A5C-A50D-3362-9E99-81CF91872BFE)
+		remaining client pid: 121 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 80 (/usr/libexec/locationd/3041B1C7-1F5C-30F4-912D-CA0AE82A9BDE)
+		remaining client pid: 56 (/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/identityservicesd/6F6F1C66-0B79-3016-BCFA-1669DA156437)
+		remaining client pid: 31 (/System/Library/CoreServices/Carousel.app/Carousel/0CB5E0C3-A2CE-3EE0-ADBB-C97FF2E17141)
+		remaining client pid: 73 (/usr/libexec/backboardd/BE0B36BE-BD7B-391B-B964-78696A6897C5)
+		remaining client pid: 51 (/System/Library/PrivateFrameworks/SleepDaemon.framework/sleepd/73557B28-8AAD-38F9-A490-BE539E2FBD32)
+		remaining client pid: 28 (/usr/libexec/UserEventAgent/7EDD875D-0889-3254-BDF2-946B972F380F)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+After 1.17s, these clients are still here:
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1681430492] All buffers flushed
+After 1.06s, these clients are still here:
+		remaining client pid: 119 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1684109037] All buffers flushed
+After 0.67s, these clients are still here:
+		remaining client pid: 121 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1684482062] All buffers flushed
+After 1.16s, these clients are still here:
+		remaining client pid: 90 (/System/Library/PrivateFrameworks/NanoPreferencesSync.framework/nanoprefsyncd/C0893A5C-A50D-3362-9E99-81CF91872BFE)
+		remaining client pid: 128 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 80 (/usr/libexec/locationd/3041B1C7-1F5C-30F4-912D-CA0AE82A9BDE)
+		remaining client pid: 51 (/System/Library/PrivateFrameworks/SleepDaemon.framework/sleepd/73557B28-8AAD-38F9-A490-BE539E2FBD32)
+		remaining client pid: 28 (/usr/libexec/UserEventAgent/7EDD875D-0889-3254-BDF2-946B972F380F)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1684476967] All buffers flushed
+After 1.20s, these clients are still here:
+		remaining client pid: 119 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1686143799] All buffers flushed
+After 1.05s, these clients are still here:
+		remaining client pid: 125 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1686433958] All buffers flushed
+After 1.16s, these clients are still here:
+		remaining client pid: 125 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1686786537] All buffers flushed
+After 1.03s, these clients are still here:
+		remaining client pid: 122 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1687021366] All buffers flushed
+After 1.06s, these clients are still here:
+		remaining client pid: 123 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1687572917] All buffers flushed
+After 0.56s, these clients are still here:
+		remaining client pid: 387 (/usr/libexec/locationd/3041B1C7-1F5C-30F4-912D-CA0AE82A9BDE)
+		remaining client pid: 122 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 120 (/usr/libexec/nsurlsessiond/B1804D0B-E232-3AA5-B26A-FFA6B3D4C5E7)
+		remaining client pid: 57 (/usr/sbin/bluetoothd/5C6EE873-1124-3A78-B0F6-150AEE948EB6)
+		remaining client pid: 56 (/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/identityservicesd/6F6F1C66-0B79-3016-BCFA-1669DA156437)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 52 (/usr/sbin/mediaserverd/860A06BF-DF82-317E-8848-ADD7748FA244)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1687986821] All buffers flushed
+After 0.75s, these clients are still here:
+		remaining client pid: 123 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1688280888] All buffers flushed
+After 1.17s, these clients are still here:
+		remaining client pid: 90 (/System/Library/PrivateFrameworks/NanoPreferencesSync.framework/nanoprefsyncd/C0893A5C-A50D-3362-9E99-81CF91872BFE)
+		remaining client pid: 127 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 80 (/usr/libexec/locationd/3041B1C7-1F5C-30F4-912D-CA0AE82A9BDE)
+		remaining client pid: 56 (/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/identityservicesd/6F6F1C66-0B79-3016-BCFA-1669DA156437)
+		remaining client pid: 31 (/System/Library/CoreServices/Carousel.app/Carousel/0CB5E0C3-A2CE-3EE0-ADBB-C97FF2E17141)
+		remaining client pid: 51 (/System/Library/PrivateFrameworks/SleepDaemon.framework/sleepd/73557B28-8AAD-38F9-A490-BE539E2FBD32)
+		remaining client pid: 28 (/usr/libexec/UserEventAgent/7EDD875D-0889-3254-BDF2-946B972F380F)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+After 1.17s, these clients are still here:
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1688280445] All buffers flushed
+After 0.95s, these clients are still here:
+		remaining client pid: 121 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1689475526] All buffers flushed
+After 0.63s, these clients are still here:
+		remaining client pid: 69 (/System/Library/Frameworks/HealthKit.framework/healthd/F060370F-E4C3-3824-AF63-A56488D71799)
+		remaining client pid: 122 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 80 (/usr/libexec/locationd/3041B1C7-1F5C-30F4-912D-CA0AE82A9BDE)
+		remaining client pid: 115 (/usr/libexec/nsurlsessiond/B1804D0B-E232-3AA5-B26A-FFA6B3D4C5E7)
+		remaining client pid: 57 (/usr/sbin/bluetoothd/5C6EE873-1124-3A78-B0F6-150AEE948EB6)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 70 (/usr/sbin/distnoted/2D9F7146-686C-363F-9297-8B546F043C5E)
+		remaining client pid: 52 (/usr/sbin/mediaserverd/860A06BF-DF82-317E-8848-ADD7748FA244)
+		remaining client pid: 37 (/usr/libexec/driverkitd/91F6ACB6-A3E1-383D-ADC5-8ED7CCB637E7)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+After 0.73s, these clients are still here:
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1690174338] All buffers flushed
+After 1.11s, these clients are still here:
+		remaining client pid: 123 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1690436896] All buffers flushed
+After 0.99s, these clients are still here:
+		remaining client pid: 123 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1691306621] All buffers flushed
+After 1.35s, these clients are still here:
+		remaining client pid: 59 (/System/Library/PrivateFrameworks/AssistantServices.framework/assistantd/558D69DB-B030-35C5-936B-DFA20CD0E8A1)
+		remaining client pid: 121 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1692313378] All buffers flushed
+After 1.17s, these clients are still here:
+		remaining client pid: 128 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1693663121] All buffers flushed
+After 1.40s, these clients are still here:
+		remaining client pid: 282 (/usr/libexec/locationd/3041B1C7-1F5C-30F4-912D-CA0AE82A9BDE)
+		remaining client pid: 123 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+After 1.40s, these clients are still here:
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1695494544] All buffers flushed
+After 1.01s, these clients are still here:
+		remaining client pid: 129 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1695543942] All buffers flushed
+After 1.02s, these clients are still here:
+		remaining client pid: 131 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1695840885] All buffers flushed
+After 0.58s, these clients are still here:
+		remaining client pid: 123 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 80 (/usr/libexec/locationd/3041B1C7-1F5C-30F4-912D-CA0AE82A9BDE)
+		remaining client pid: 109 (/usr/libexec/nsurlsessiond/B1804D0B-E232-3AA5-B26A-FFA6B3D4C5E7)
+		remaining client pid: 57 (/usr/sbin/bluetoothd/5C6EE873-1124-3A78-B0F6-150AEE948EB6)
+		remaining client pid: 56 (/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/identityservicesd/6F6F1C66-0B79-3016-BCFA-1669DA156437)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 52 (/usr/sbin/mediaserverd/860A06BF-DF82-317E-8848-ADD7748FA244)
+		remaining client pid: 82 (/usr/sbin/fairplayd.G1/F122B3DB-E442-3534-A08D-88962E3720B4)
+		remaining client pid: 28 (/usr/libexec/UserEventAgent/7EDD875D-0889-3254-BDF2-946B972F380F)
+		remaining client pid: 61 (/usr/libexec/fseventsd/B581AA6C-3227-3AF9-82F6-62C41804AF9E)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+After 1.10s, these clients are still here:
+		remaining client pid: 123 (/usr/libexec/terminusd/98F27C0C-1AC8-3259-B006-CB7DB7713F6B)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/C2141982-7AA6-3885-BE8F-11AFDCD6E5C9)
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+After 1.11s, these clients are still here:
+		remaining client pid: 0 (/kernel/29BC0B65-8351-3D14-9614-EDFCFB3263B3)
+SIGTERM: [1695956212] All buffers flushed
+After 1.23s, these clients are still here:
+		remaining client pid: 149 (/usr/libexec/terminusd/6EF1C756-1B4B-33A9-9BE7-8A6C8D1177E9)
+		remaining client pid: 66 (/usr/libexec/IOMFB_bics_daemon/2161D6DD-8D3D-39DC-8E86-6C9C9AE3E06B)
+		remaining client pid: 0 (/kernel/60CC8A8D-45F1-3032-829F-BB8DE389E974)
+SIGTERM: [1696749748] All buffers flushed
+After 1.57s, these clients are still here:
+		remaining client pid: 127 (/usr/libexec/terminusd/6EF1C756-1B4B-33A9-9BE7-8A6C8D1177E9)
+		remaining client pid: 0 (/kernel/60CC8A8D-45F1-3032-829F-BB8DE389E974)
+SIGTERM: [1697715936] All buffers flushed
+After 0.64s, these clients are still here:
+		remaining client pid: 59 (/System/Library/PrivateFrameworks/AssistantServices.framework/assistantd/EE69388B-1AA6-3DF5-B564-DABDCE664CC7)
+		remaining client pid: 90 (/System/Library/PrivateFrameworks/NanoPreferencesSync.framework/nanoprefsyncd/23CE5EC9-51CF-3653-8262-AE579302AB27)
+		remaining client pid: 69 (/System/Library/Frameworks/HealthKit.framework/healthd/26B5074E-902D-3A39-9814-922BBEEC9DF7)
+		remaining client pid: 125 (/usr/libexec/terminusd/6EF1C756-1B4B-33A9-9BE7-8A6C8D1177E9)
+		remaining client pid: 123 (/usr/libexec/nsurlsessiond/28AD6652-462B-3F55-B7F8-5DD2EDE81617)
+		remaining client pid: 80 (/usr/libexec/locationd/E10FC5D2-A4C8-3CFA-A0D0-7F7103644163)
+		remaining client pid: 56 (/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/identityservicesd/C228AB48-10C8-30AC-8D32-8FD05837C296)
+		remaining client pid: 57 (/usr/sbin/bluetoothd/AF4D38B6-D14F-3659-8EAE-B7F42A8D3025)
+		remaining client pid: 31 (/System/Library/CoreServices/Carousel.app/Carousel/26D3B033-8E67-38D9-BBDF-7DBA48FAAAC1)
+		remaining client pid: 73 (/usr/libexec/backboardd/34F1216E-0E1D-3AB1-A06B-811F33D6B506)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/2161D6DD-8D3D-39DC-8E86-6C9C9AE3E06B)
+		remaining client pid: 40 (/usr/libexec/ProxiedCrashCopier/6473F3AA-A552-3984-9130-3F83CF973C21)
+		remaining client pid: 51 (/System/Library/PrivateFrameworks/SleepDaemon.framework/sleepd/68EA4B65-4B95-3212-9B79-E2A1DA8DC32A)
+		remaining client pid: 50 (/usr/libexec/timed/32901E19-5B80-3944-9FEE-C2588EA1D2E3)
+		remaining client pid: 82 (/usr/sbin/fairplayd.G1/EE9B499F-B96A-39F2-8A12-3FFE48C0776D)
+		remaining client pid: 52 (/usr/sbin/mediaserverd/575A3D55-78EC-3688-B33D-4B3D4CEE28AD)
+		remaining client pid: 89 (/usr/sbin/wifid/BD6E5832-14B0-30FA-A64D-F4DEE2F8B177)
+		remaining client pid: 38 (/usr/libexec/configd/ABC81B9A-BEA2-311C-A0FD-05F5ED8EB73A)
+		remaining client pid: 70 (/usr/sbin/distnoted/9901DC8A-163E-32CC-B150-654E7F5B018C)
+		remaining client pid: 45 (/usr/libexec/rapportd/2996BA1D-8FA5-31E8-8ED1-E9FBE681F8DB)
+		remaining client pid: 91 (/usr/libexec/healthlited/349BF88D-85FF-3774-8A9E-186148034FA8)
+		remaining client pid: 0 (/kernel/60CC8A8D-45F1-3032-829F-BB8DE389E974)
+After 1.21s, these clients are still here:
+		remaining client pid: 125 (/usr/libexec/terminusd/6EF1C756-1B4B-33A9-9BE7-8A6C8D1177E9)
+		remaining client pid: 64 (/usr/libexec/IOMFB_bics_daemon/2161D6DD-8D3D-39DC-8E86-6C9C9AE3E06B)
+		remaining client pid: 0 (/kernel/60CC8A8D-45F1-3032-829F-BB8DE389E974)
+After 1.21s, these clients are still here:
+		remaining client pid: 0 (/kernel/60CC8A8D-45F1-3032-829F-BB8DE389E974)
+SIGTERM: [1699550322] All buffers flushed
+After 0.63s, these clients are still here:
+		remaining client pid: 439 (/Applications/NanoSettings.app/NanoSettings/DB590D75-E8B6-3650-961A-890BBC8D27AF)
+		remaining client pid: 355 (/System/Library/PrivateFrameworks/HealthAlgorithms.framework/XPCServices/DayStreamProcessorService.xpc/DayStreamProcessorService/D31AF1B4-1780-3794-B8FC-01169B3E5400)
+		remaining client pid: 356 (/Syst

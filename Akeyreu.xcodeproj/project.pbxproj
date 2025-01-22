@@ -1,0 +1,1414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		760624C12CA393B9008C7454 /* FindRokuIPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760624C02CA393AF008C7454 /* FindRokuIPView.swift */; };
+		763FB2222C9B80CD001EF171 /* RokuDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763FB2212C9B80CD001EF171 /* RokuDiscovery.swift */; };
+		764456F62CBDD05C00B3DA0F /* RokuScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764456F52CBDD05C00B3DA0F /* RokuScanner.swift */; };
+		764456F92CBDD0CE00B3DA0F /* CocoaAsyncSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 764456F82CBDD0CE00B3DA0F /* CocoaAsyncSocket */; };
+		76A110DF2C011178007CD77E /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A110DE2C011178007CD77E /* DataView.swift */; };
+		76A110E12C01180C007CD77E /* OverallDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A110E02C01180C007CD77E /* OverallDataView.swift */; };
+		76BB01282C7680E6000E487F /* RokuTVControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB01272C7680E6000E487F /* RokuTVControl.swift */; };
+		76BB01372C88C70C000E487F /* RokuTVControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB01362C88C70C000E487F /* RokuTVControlTests.swift */; };
+		76EE5BA12D3867F20027ACBF /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE5BA02D3867E60027ACBF /* ColorExtension.swift */; };
+		76EE5DA72D416E900027ACBF /* DeviceControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE5DA42D416E900027ACBF /* DeviceControlView.swift */; };
+		76EE5DA82D416E900027ACBF /* DeviceDiscoveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE5DA52D416E900027ACBF /* DeviceDiscoveryView.swift */; };
+		76EE5DAF2D4174090027ACBF /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE5DAE2D4174080027ACBF /* Alarm.swift */; };
+		76EE5DB12D4174230027ACBF /* AlarmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE5DB02D41741E0027ACBF /* AlarmManager.swift */; };
+		76EE5DB32D4174A90027ACBF /* AlarmListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE5DB22D4174A30027ACBF /* AlarmListView.swift */; };
+		76EE5DB52D4174BB0027ACBF /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE5DB42D4174B30027ACBF /* AddAlarmView.swift */; };
+		76EE5DB72D4174FF0027ACBF /* bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 76EE5DB62D4174FF0027ACBF /* bell.mp3 */; };
+		76EE5DB92D4175FA0027ACBF /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE5DB82D4175F50027ACBF /* MainMenuView.swift */; };
+		A809B2B02B2EADC3007EC1B0 /* SleepStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A809B2AF2B2EADC3007EC1B0 /* SleepStatus.swift */; };
+		A809B2B22B2EAF18007EC1B0 /* Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A809B2B12B2EAF18007EC1B0 /* Delegates.swift */; };
+		A809B2B42B2EAF47007EC1B0 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A809B2B32B2EAF47007EC1B0 /* Network.swift */; };
+		A809B2B62B37761B007EC1B0 /* WatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A809B2B52B37761B007EC1B0 /* WatchManager.swift */; };
+		A809B2B82B37766F007EC1B0 /* Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A809B2B72B37766F007EC1B0 /* Delegates.swift */; };
+		A822F1582B0AB0CD00B583E7 /* AkWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A822F1572B0AB0CD00B583E7 /* AkWatchApp.swift */; };
+		A822F15A2B0AB0CD00B583E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A822F1592B0AB0CD00B583E7 /* ContentView.swift */; };
+		A822F15C2B0AB0CE00B583E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A822F15B2B0AB0CE00B583E7 /* Assets.xcassets */; };
+		A822F15F2B0AB0CE00B583E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A822F15E2B0AB0CE00B583E7 /* Preview Assets.xcassets */; };
+		A822F1692B0AB0CE00B583E7 /* AkWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A822F1682B0AB0CE00B583E7 /* AkWatch_Watch_AppTests.swift */; };
+		A822F1732B0AB0CE00B583E7 /* AkWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A822F1722B0AB0CE00B583E7 /* AkWatch_Watch_AppUITests.swift */; };
+		A822F1752B0AB0CE00B583E7 /* AkWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A822F1742B0AB0CE00B583E7 /* AkWatch_Watch_AppUITestsLaunchTests.swift */; };
+		A822F1782B0AB0CE00B583E7 /* AkWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A822F1552B0AB0CD00B583E7 /* AkWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A866DE7C2AEEAB5500A7A4F4 /* AkeyreuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A866DE7B2AEEAB5500A7A4F4 /* AkeyreuApp.swift */; };
+		A866DE7E2AEEAB5500A7A4F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A866DE7D2AEEAB5500A7A4F4 /* ContentView.swift */; };
+		A866DE802AEEAB5600A7A4F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A866DE7F2AEEAB5600A7A4F4 /* Assets.xcassets */; };
+		A866DE832AEEAB5600A7A4F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A866DE822AEEAB5600A7A4F4 /* Preview Assets.xcassets */; };
+		A866DE852AEEAB5600A7A4F4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A866DE842AEEAB5600A7A4F4 /* Persistence.swift */; };
+		A866DE882AEEAB5600A7A4F4 /* Akeyreu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A866DE862AEEAB5600A7A4F4 /* Akeyreu.xcdatamodeld */; };
+		A866DE922AEEAB5600A7A4F4 /* AkeyreuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A866DE912AEEAB5600A7A4F4 /* AkeyreuTests.swift */; };
+		A866DE9C2AEEAB5600A7A4F4 /* AkeyreuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A866DE9B2AEEAB5600A7A4F4 /* AkeyreuUITests.swift */; };
+		A866DE9E2AEEAB5600A7A4F4 /* AkeyreuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A866DE9D2AEEAB5600A7A4F4 /* AkeyreuUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76BB01312C88C6B2000E487F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A866DE702AEEAB5500A7A4F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A866DE772AEEAB5500A7A4F4;
+			remoteInfo = Akeyreu;
+		};
+		A822F1652B0AB0CE00B583E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A866DE702AEEAB5500A7A4F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A822F1542B0AB0CD00B583E7;
+			remoteInfo = "AkWatch Watch App";
+		};
+		A822F16F2B0AB0CE00B583E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A866DE702AEEAB5500A7A4F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A822F1542B0AB0CD00B583E7;
+			remoteInfo = "AkWatch Watch App";
+		};
+		A822F1762B0AB0CE00B583E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A866DE702AEEAB5500A7A4F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A822F1542B0AB0CD00B583E7;
+			remoteInfo = "AkWatch Watch App";
+		};
+		A866DE8E2AEEAB5600A7A4F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A866DE702AEEAB5500A7A4F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A866DE772AEEAB5500A7A4F4;
+			remoteInfo = Akeyreu;
+		};
+		A866DE982AEEAB5600A7A4F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A866DE702AEEAB5500A7A4F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A866DE772AEEAB5500A7A4F4;
+			remoteInfo = Akeyreu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		76EE5C8F2D4168940027ACBF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76EE5C922D4168BF0027ACBF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76EE5C952D4168CB0027ACBF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76EE5C992D4168D20027ACBF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76EE5C9C2D4168D70027ACBF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76EE5C9F2D4168DD0027ACBF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76EE5CA22D4168E40027ACBF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D958F32B0A6D6200125F54 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A822F1782B0AB0CE00B583E7 /* AkWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		760624C02CA393AF008C7454 /* FindRokuIPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindRokuIPView.swift; sourceTree = "<group>"; };
+		763FB2212C9B80CD001EF171 /* RokuDiscovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RokuDiscovery.swift; sourceTree = "<group>"; };
+		764456F52CBDD05C00B3DA0F /* RokuScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RokuScanner.swift; sourceTree = "<group>"; };
+		76A110DE2C011178007CD77E /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
+		76A110E02C01180C007CD77E /* OverallDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverallDataView.swift; sourceTree = "<group>"; };
+		76BB01272C7680E6000E487F /* RokuTVControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RokuTVControl.swift; sourceTree = "<group>"; };
+		76BB012D2C88C6B2000E487F /* RokuTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RokuTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76BB01362C88C70C000E487F /* RokuTVControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RokuTVControlTests.swift; sourceTree = "<group>"; };
+		76EE5BA02D3867E60027ACBF /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		76EE5DA42D416E900027ACBF /* DeviceControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceControlView.swift; sourceTree = "<group>"; };
+		76EE5DA52D416E900027ACBF /* DeviceDiscoveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDiscoveryView.swift; sourceTree = "<group>"; };
+		76EE5DAE2D4174080027ACBF /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		76EE5DB02D41741E0027ACBF /* AlarmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmManager.swift; sourceTree = "<group>"; };
+		76EE5DB22D4174A30027ACBF /* AlarmListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListView.swift; sourceTree = "<group>"; };
+		76EE5DB42D4174B30027ACBF /* AddAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmView.swift; sourceTree = "<group>"; };
+		76EE5DB62D4174FF0027ACBF /* bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bell.mp3; sourceTree = "<group>"; };
+		76EE5DB82D4175F50027ACBF /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		A809B2AF2B2EADC3007EC1B0 /* SleepStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepStatus.swift; sourceTree = "<group>"; };
+		A809B2B12B2EAF18007EC1B0 /* Delegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegates.swift; sourceTree = "<group>"; };
+		A809B2B32B2EAF47007EC1B0 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		A809B2B52B37761B007EC1B0 /* WatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchManager.swift; sourceTree = "<group>"; };
+		A809B2B72B37766F007EC1B0 /* Delegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegates.swift; sourceTree = "<group>"; };
+		A822F1552B0AB0CD00B583E7 /* AkWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AkWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A822F1572B0AB0CD00B583E7 /* AkWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkWatchApp.swift; sourceTree = "<group>"; };
+		A822F1592B0AB0CD00B583E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A822F15B2B0AB0CE00B583E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A822F15E2B0AB0CE00B583E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A822F1642B0AB0CE00B583E7 /* AkWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AkWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A822F1682B0AB0CE00B583E7 /* AkWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		A822F16E2B0AB0CE00B583E7 /* AkWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AkWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A822F1722B0AB0CE00B583E7 /* AkWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		A822F1742B0AB0CE00B583E7 /* AkWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A866DE782AEEAB5500A7A4F4 /* Akeyreu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Akeyreu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A866DE7B2AEEAB5500A7A4F4 /* AkeyreuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkeyreuApp.swift; sourceTree = "<group>"; };
+		A866DE7D2AEEAB5500A7A4F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A866DE7F2AEEAB5600A7A4F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A866DE822AEEAB5600A7A4F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A866DE842AEEAB5600A7A4F4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A866DE872AEEAB5600A7A4F4 /* Akeyreu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Akeyreu.xcdatamodel; sourceTree = "<group>"; };
+		A866DE8D2AEEAB5600A7A4F4 /* AkeyreuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AkeyreuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A866DE912AEEAB5600A7A4F4 /* AkeyreuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkeyreuTests.swift; sourceTree = "<group>"; };
+		A866DE972AEEAB5600A7A4F4 /* AkeyreuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AkeyreuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A866DE9B2AEEAB5600A7A4F4 /* AkeyreuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkeyreuUITests.swift; sourceTree = "<group>"; };
+		A866DE9D2AEEAB5600A7A4F4 /* AkeyreuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkeyreuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A866DEAA2AEEABAC00A7A4F4 /* Akeyreu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Akeyreu.entitlements; sourceTree = "<group>"; };
+		A866DEAB2AEEBF8000A7A4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76BB012A2C88C6B2000E487F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A822F1522B0AB0CD00B583E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A822F1612B0AB0CE00B583E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A822F16B2B0AB0CE00B583E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A866DE752AEEAB5500A7A4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764456F92CBDD0CE00B3DA0F /* CocoaAsyncSocket in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A866DE8A2AEEAB5600A7A4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A866DE942AEEAB5600A7A4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76BB01242C767FA1000E487F /* RokuTV */ = {
+			isa = PBXGroup;
+			children = (
+				764456F52CBDD05C00B3DA0F /* RokuScanner.swift */,
+				760624C02CA393AF008C7454 /* FindRokuIPView.swift */,
+				763FB2212C9B80CD001EF171 /* RokuDiscovery.swift */,
+				76BB01272C7680E6000E487F /* RokuTVControl.swift */,
+			);
+			path = RokuTV;
+			sourceTree = "<group>";
+		};
+		76BB012E2C88C6B2000E487F /* RokuTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				76BB01362C88C70C000E487F /* RokuTVControlTests.swift */,
+			);
+			path = RokuTVTests;
+			sourceTree = "<group>";
+		};
+		76EE5DA62D416E900027ACBF /* DeviceControl */ = {
+			isa = PBXGroup;
+			children = (
+				76EE5DA42D416E900027ACBF /* DeviceControlView.swift */,
+				76EE5DA52D416E900027ACBF /* DeviceDiscoveryView.swift */,
+			);
+			path = DeviceControl;
+			sourceTree = "<group>";
+		};
+		76EE5DA92D416E980027ACBF /* SleepData */ = {
+			isa = PBXGroup;
+			children = (
+				76A110DE2C011178007CD77E /* DataView.swift */,
+				76A110E02C01180C007CD77E /* OverallDataView.swift */,
+			);
+			path = SleepData;
+			sourceTree = "<group>";
+		};
+		76EE5DAD2D4173F60027ACBF /* AlarmControl */ = {
+			isa = PBXGroup;
+			children = (
+				76EE5DAE2D4174080027ACBF /* Alarm.swift */,
+				76EE5DB02D41741E0027ACBF /* AlarmManager.swift */,
+				76EE5DB22D4174A30027ACBF /* AlarmListView.swift */,
+				76EE5DB42D4174B30027ACBF /* AddAlarmView.swift */,
+				76EE5DB62D4174FF0027ACBF /* bell.mp3 */,
+			);
+			path = AlarmControl;
+			sourceTree = "<group>";
+		};
+		A822F1562B0AB0CD00B583E7 /* AkWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A822F1572B0AB0CD00B583E7 /* AkWatchApp.swift */,
+				A822F1592B0AB0CD00B583E7 /* ContentView.swift */,
+				A809B2B72B37766F007EC1B0 /* Delegates.swift */,
+				A809B2B52B37761B007EC1B0 /* WatchManager.swift */,
+				A822F15B2B0AB0CE00B583E7 /* Assets.xcassets */,
+				A822F15D2B0AB0CE00B583E7 /* Preview Content */,
+			);
+			path = "AkWatch Watch App";
+			sourceTree = "<group>";
+		};
+		A822F15D2B0AB0CE00B583E7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A822F15E2B0AB0CE00B583E7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A822F1672B0AB0CE00B583E7 /* AkWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A822F1682B0AB0CE00B583E7 /* AkWatch_Watch_AppTests.swift */,
+			);
+			path = "AkWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		A822F1712B0AB0CE00B583E7 /* AkWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A822F1722B0AB0CE00B583E7 /* AkWatch_Watch_AppUITests.swift */,
+				A822F1742B0AB0CE00B583E7 /* AkWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "AkWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		A866DE6F2AEEAB5500A7A4F4 = {
+			isa = PBXGroup;
+			children = (
+				A866DE7A2AEEAB5500A7A4F4 /* Akeyreu */,
+				A866DE902AEEAB5600A7A4F4 /* AkeyreuTests */,
+				A866DE9A2AEEAB5600A7A4F4 /* AkeyreuUITests */,
+				A822F1562B0AB0CD00B583E7 /* AkWatch Watch App */,
+				A822F1672B0AB0CE00B583E7 /* AkWatch Watch AppTests */,
+				A822F1712B0AB0CE00B583E7 /* AkWatch Watch AppUITests */,
+				76BB012E2C88C6B2000E487F /* RokuTVTests */,
+				A866DE792AEEAB5500A7A4F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A866DE792AEEAB5500A7A4F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A866DE782AEEAB5500A7A4F4 /* Akeyreu.app */,
+				A866DE8D2AEEAB5600A7A4F4 /* AkeyreuTests.xctest */,
+				A866DE972AEEAB5600A7A4F4 /* AkeyreuUITests.xctest */,
+				A822F1552B0AB0CD00B583E7 /* AkWatch Watch App.app */,
+				A822F1642B0AB0CE00B583E7 /* AkWatch Watch AppTests.xctest */,
+				A822F16E2B0AB0CE00B583E7 /* AkWatch Watch AppUITests.xctest */,
+				76BB012D2C88C6B2000E487F /* RokuTVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A866DE7A2AEEAB5500A7A4F4 /* Akeyreu */ = {
+			isa = PBXGroup;
+			children = (
+				76EE5DAD2D4173F60027ACBF /* AlarmControl */,
+				76EE5DA62D416E900027ACBF /* DeviceControl */,
+				76BB01242C767FA1000E487F /* RokuTV */,
+				76EE5DA92D416E980027ACBF /* SleepData */,
+				A866DE7B2AEEAB5500A7A4F4 /* AkeyreuApp.swift */,
+				76EE5DB82D4175F50027ACBF /* MainMenuView.swift */,
+				76EE5BA02D3867E60027ACBF /* ColorExtension.swift */,
+				A866DE7D2AEEAB5500A7A4F4 /* ContentView.swift */,
+				A809B2AF2B2EADC3007EC1B0 /* SleepStatus.swift */,
+				A866DE842AEEAB5600A7A4F4 /* Persistence.swift */,
+				A809B2B12B2EAF18007EC1B0 /* Delegates.swift */,
+				A809B2B32B2EAF47007EC1B0 /* Network.swift */,
+				A866DEAB2AEEBF8000A7A4F4 /* Info.plist */,
+				A866DEAA2AEEABAC00A7A4F4 /* Akeyreu.entitlements */,
+				A866DE7F2AEEAB5600A7A4F4 /* Assets.xcassets */,
+				A866DE862AEEAB5600A7A4F4 /* Akeyreu.xcdatamodeld */,
+				A866DE812AEEAB5600A7A4F4 /* Preview Content */,
+			);
+			path = Akeyreu;
+			sourceTree = "<group>";
+		};
+		A866DE812AEEAB5600A7A4F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A866DE822AEEAB5600A7A4F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A866DE902AEEAB5600A7A4F4 /* AkeyreuTests */ = {
+			isa = PBXGroup;
+			children = (
+				A866DE912AEEAB5600A7A4F4 /* AkeyreuTests.swift */,
+			);
+			path = AkeyreuTests;
+			sourceTree = "<group>";
+		};
+		A866DE9A2AEEAB5600A7A4F4 /* AkeyreuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A866DE9B2AEEAB5600A7A4F4 /* AkeyreuUITests.swift */,
+				A866DE9D2AEEAB5600A7A4F4 /* AkeyreuUITestsLaunchTests.swift */,
+			);
+			path = AkeyreuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76BB012C2C88C6B2000E487F /* RokuTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76BB01352C88C6B2000E487F /* Build configuration list for PBXNativeTarget "RokuTVTests" */;
+			buildPhases = (
+				76BB01292C88C6B2000E487F /* Sources */,
+				76BB012A2C88C6B2000E487F /* Frameworks */,
+				76BB012B2C88C6B2000E487F /* Resources */,
+				76EE5CA22D4168E40027ACBF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76BB01322C88C6B2000E487F /* PBXTargetDependency */,
+			);
+			name = RokuTVTests;
+			productName = RokuTVTests;
+			productReference = 76BB012D2C88C6B2000E487F /* RokuTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A822F1542B0AB0CD00B583E7 /* AkWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A822F17F2B0AB0CE00B583E7 /* Build configuration list for PBXNativeTarget "AkWatch Watch App" */;
+			buildPhases = (
+				A822F1512B0AB0CD00B583E7 /* Sources */,
+				A822F1522B0AB0CD00B583E7 /* Frameworks */,
+				A822F1532B0AB0CD00B583E7 /* Resources */,
+				76EE5C992D4168D20027ACBF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AkWatch Watch App";
+			productName = "AkWatch Watch App";
+			productReference = A822F1552B0AB0CD00B583E7 /* AkWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A822F1632B0AB0CE00B583E7 /* AkWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A822F1802B0AB0CE00B583E7 /* Build configuration list for PBXNativeTarget "AkWatch Watch AppTests" */;
+			buildPhases = (
+				A822F1602B0AB0CE00B583E7 /* Sources */,
+				A822F1612B0AB0CE00B583E7 /* Frameworks */,
+				A822F1622B0AB0CE00B583E7 /* Resources */,
+				76EE5C9C2D4168D70027ACBF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A822F1662B0AB0CE00B583E7 /* PBXTargetDependency */,
+			);
+			name = "AkWatch Watch AppTests";
+			productName = "AkWatch Watch AppTests";
+			productReference = A822F1642B0AB0CE00B583E7 /* AkWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A822F16D2B0AB0CE00B583E7 /* AkWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A822F1812B0AB0CE00B583E7 /* Build configuration list for PBXNativeTarget "AkWatch Watch AppUITests" */;
+			buildPhases = (
+				A822F16A2B0AB0CE00B583E7 /* Sources */,
+				A822F16B2B0AB0CE00B583E7 /* Frameworks */,
+				A822F16C2B0AB0CE00B583E7 /* Resources */,
+				76EE5C9F2D4168DD0027ACBF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A822F1702B0AB0CE00B583E7 /* PBXTargetDependency */,
+			);
+			name = "AkWatch Watch AppUITests";
+			productName = "AkWatch Watch AppUITests";
+			productReference = A822F16E2B0AB0CE00B583E7 /* AkWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A866DE772AEEAB5500A7A4F4 /* Akeyreu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A866DEA12AEEAB5600A7A4F4 /* Build configuration list for PBXNativeTarget "Akeyreu" */;
+			buildPhases = (
+				A866DE742AEEAB5500A7A4F4 /* Sources */,
+				A866DE752AEEAB5500A7A4F4 /* Frameworks */,
+				A866DE762AEEAB5500A7A4F4 /* Resources */,
+				A8D958F32B0A6D6200125F54 /* Embed Watch Content */,
+				76EE5C8F2D4168940027ACBF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A822F1772B0AB0CE00B583E7 /* PBXTargetDependency */,
+			);
+			name = Akeyreu;
+			packageProductDependencies = (
+				764456F82CBDD0CE00B3DA0F /* CocoaAsyncSocket */,
+			);
+			productName = Akeyreu;
+			productReference = A866DE782AEEAB5500A7A4F4 /* Akeyreu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A866DE8C2AEEAB5600A7A4F4 /* AkeyreuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A866DEA42AEEAB5600A7A4F4 /* Build configuration list for PBXNativeTarget "AkeyreuTests" */;
+			buildPhases = (
+				A866DE892AEEAB5600A7A4F4 /* Sources */,
+				A866DE8A2AEEAB5600A7A4F4 /* Frameworks */,
+				A866DE8B2AEEAB5600A7A4F4 /* Resources */,
+				76EE5C922D4168BF0027ACBF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A866DE8F2AEEAB5600A7A4F4 /* PBXTargetDependency */,
+			);
+			name = AkeyreuTests;
+			productName = AkeyreuTests;
+			productReference = A866DE8D2AEEAB5600A7A4F4 /* AkeyreuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A866DE962AEEAB5600A7A4F4 /* AkeyreuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A866DEA72AEEAB5600A7A4F4 /* Build configuration list for PBXNativeTarget "AkeyreuUITests" */;
+			buildPhases = (
+				A866DE932AEEAB5600A7A4F4 /* Sources */,
+				A866DE942AEEAB5600A7A4F4 /* Frameworks */,
+				A866DE952AEEAB5600A7A4F4 /* Resources */,
+				76EE5C952D4168CB0027ACBF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A866DE992AEEAB5600A7A4F4 /* PBXTargetDependency */,
+			);
+			name = AkeyreuUITests;
+			productName = AkeyreuUITests;
+			productReference = A866DE972AEEAB5600A7A4F4 /* AkeyreuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A866DE702AEEAB5500A7A4F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					76BB012C2C88C6B2000E487F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A866DE772AEEAB5500A7A4F4;
+					};
+					A822F1542B0AB0CD00B583E7 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					A822F1632B0AB0CE00B583E7 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A822F1542B0AB0CD00B583E7;
+					};
+					A822F16D2B0AB0CE00B583E7 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A822F1542B0AB0CD00B583E7;
+					};
+					A866DE772AEEAB5500A7A4F4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A866DE8C2AEEAB5600A7A4F4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A866DE772AEEAB5500A7A4F4;
+					};
+					A866DE962AEEAB5600A7A4F4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A866DE772AEEAB5500A7A4F4;
+					};
+				};
+			};
+			buildConfigurationList = A866DE732AEEAB5500A7A4F4 /* Build configuration list for PBXProject "Akeyreu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A866DE6F2AEEAB5500A7A4F4;
+			packageReferences = (
+				764456F72CBDD0B200B3DA0F /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */,
+			);
+			productRefGroup = A866DE792AEEAB5500A7A4F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A866DE772AEEAB5500A7A4F4 /* Akeyreu */,
+				A866DE8C2AEEAB5600A7A4F4 /* AkeyreuTests */,
+				A866DE962AEEAB5600A7A4F4 /* AkeyreuUITests */,
+				A822F1542B0AB0CD00B583E7 /* AkWatch Watch App */,
+				A822F1632B0AB0CE00B583E7 /* AkWatch Watch AppTests */,
+				A822F16D2B0AB0CE00B583E7 /* AkWatch Watch AppUITests */,
+				76BB012C2C88C6B2000E487F /* RokuTVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76BB012B2C88C6B2000E487F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A822F1532B0AB0CD00B583E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A822F15F2B0AB0CE00B583E7 /* Preview Assets.xcassets in Resources */,
+				A822F15C2B0AB0CE00B583E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A822F1622B0AB0CE00B583E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A822F16C2B0AB0CE00B583E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A866DE762AEEAB5500A7A4F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A866DE832AEEAB5600A7A4F4 /* Preview Assets.xcassets in Resources */,
+				A866DE802AEEAB5600A7A4F4 /* Assets.xcassets in Resources */,
+				76EE5DB72D4174FF0027ACBF /* bell.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A866DE8B2AEEAB5600A7A4F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A866DE952AEEAB5600A7A4F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76BB01292C88C6B2000E487F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76BB01372C88C70C000E487F /* RokuTVControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A822F1512B0AB0CD00B583E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A809B2B82B37766F007EC1B0 /* Delegates.swift in Sources */,
+				A822F15A2B0AB0CD00B583E7 /* ContentView.swift in Sources */,
+				A822F1582B0AB0CD00B583E7 /* AkWatchApp.swift in Sources */,
+				A809B2B62B37761B007EC1B0 /* WatchManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A822F1602B0AB0CE00B583E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A822F1692B0AB0CE00B583E7 /* AkWatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A822F16A2B0AB0CE00B583E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A822F1752B0AB0CE00B583E7 /* AkWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+				A822F1732B0AB0CE00B583E7 /* AkWatch_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A866DE742AEEAB5500A7A4F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A866DE852AEEAB5600A7A4F4 /* Persistence.swift in Sources */,
+				76EE5DA72D416E900027ACBF /* DeviceControlView.swift in Sources */,
+				76EE5DA82D416E900027ACBF /* DeviceDiscoveryView.swift in Sources */,
+				A866DE7E2AEEAB5500A7A4F4 /* ContentView.swift in Sources */,
+				A809B2B02B2EADC3007EC1B0 /* SleepStatus.swift in Sources */,
+				76EE5DB32D4174A90027ACBF /* AlarmListView.swift in Sources */,
+				764456F62CBDD05C00B3DA0F /* RokuScanner.swift in Sources */,
+				76EE5DB92D4175FA0027ACBF /* MainMenuView.swift in Sources */,
+				760624C12CA393B9008C7454 /* FindRokuIPView.swift in Sources */,
+				763FB2222C9B80CD001EF171 /* RokuDiscovery.swift in Sources */,
+				76EE5DAF2D4174090027ACBF /* Alarm.swift in Sources */,
+				76EE5DB52D4174BB0027ACBF /* AddAlarmView.swift in Sources */,
+				A866DE882AEEAB5600A7A4F4 /* Akeyreu.xcdatamodeld in Sources */,
+				A809B2B22B2EAF18007EC1B0 /* Delegates.swift in Sources */,
+				76BB01282C7680E6000E487F /* RokuTVControl.swift in Sources */,
+				A809B2B42B2EAF47007EC1B0 /* Network.swift in Sources */,
+				76EE5BA12D3867F20027ACBF /* ColorExtension.swift in Sources */,
+				76A110DF2C011178007CD77E /* DataView.swift in Sources */,
+				76A110E12C01180C007CD77E /* OverallDataView.swift in Sources */,
+				A866DE7C2AEEAB5500A7A4F4 /* AkeyreuApp.swift in Sources */,
+				76EE5DB12D4174230027ACBF /* AlarmManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A866DE892AEEAB5600A7A4F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A866DE922AEEAB5600A7A4F4 /* AkeyreuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A866DE932AEEAB5600A7A4F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A866DE9C2AEEAB5600A7A4F4 /* AkeyreuUITests.swift in Sources */,
+				A866DE9E2AEEAB5600A7A4F4 /* AkeyreuUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76BB01322C88C6B2000E487F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A866DE772AEEAB5500A7A4F4 /* Akeyreu */;
+			targetProxy = 76BB01312C88C6B2000E487F /* PBXContainerItemProxy */;
+		};
+		A822F1662B0AB0CE00B583E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A822F1542B0AB0CD00B583E7 /* AkWatch Watch App */;
+			targetProxy = A822F1652B0AB0CE00B583E7 /* PBXContainerItemProxy */;
+		};
+		A822F1702B0AB0CE00B583E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A822F1542B0AB0CD00B583E7 /* AkWatch Watch App */;
+			targetProxy = A822F16F2B0AB0CE00B583E7 /* PBXContainerItemProxy */;
+		};
+		A822F1772B0AB0CE00B583E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A822F1542B0AB0CD00B583E7 /* AkWatch Watch App */;
+			targetProxy = A822F1762B0AB0CE00B583E7 /* PBXContainerItemProxy */;
+		};
+		A866DE8F2AEEAB5600A7A4F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A866DE772AEEAB5500A7A4F4 /* Akeyreu */;
+			targetProxy = A866DE8E2AEEAB5600A7A4F4 /* PBXContainerItemProxy */;
+		};
+		A866DE992AEEAB5600A7A4F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A866DE772AEEAB5500A7A4F4 /* Akeyreu */;
+			targetProxy = A866DE982AEEAB5600A7A4F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		76BB01332C88C6B2000E487F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTAWTT5K7Z;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Akeyreu.RokuTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Akeyreu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Akeyreu";
+			};
+			name = Debug;
+		};
+		76BB01342C88C6B2000E487F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTAWTT5K7Z;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Akeyreu.RokuTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Akeyreu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Akeyreu";
+			};
+			name = Release;
+		};
+		A822F1792B0AB0CE00B583E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AkWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = JTAWTT5K7Z;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AkWatch;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "so we have it to give";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "so we know your status";
+				INFOPLIST_KEY_NSMotionUsageDescription = "you dead or what ";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.amey.akeyreu;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amey.akeyreu.watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		A822F17A2B0AB0CE00B583E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AkWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = JTAWTT5K7Z;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AkWatch;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "so we have it to give";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "so we know your status";
+				INFOPLIST_KEY_NSMotionUsageDescription = "you dead or what ";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.amey.akeyreu;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amey.akeyreu.watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		A822F17B2B0AB0CE00B583E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTAWTT5K7Z;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amey.watch.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AkWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AkWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		A822F17C2B0AB0CE00B583E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTAWTT5K7Z;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amey.watch.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AkWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AkWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		A822F17D2B0AB0CE00B583E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTAWTT5K7Z;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amey.watch.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "AkWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		A822F17E2B0AB0CE00B583E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTAWTT5K7Z;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amey.watch.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "AkWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		A866DE9F2AEEAB5600A7A4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 8.6;
+			};
+			name = Debug;
+		};
+		A866DEA02AEEAB5600A7A4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.6;
+			};
+			name = Release;
+		};
+		A866DEA22AEEAB5600A7A4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Akeyreu/Akeyreu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Akeyreu/Preview Content\"";
+				DEVELOPMENT_TEAM = JTAWTT5K7Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Akeyreu/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "So we sell it, no problem";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need to know if you sleep boi";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "We need access to your local network to find Roku devices.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need location services to find devices on your network.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "you dead or what ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amey.akeyreu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A866DEA32AEEAB5600A7A4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Akeyreu/Akeyreu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Akeyreu/Preview Content\"";
+				DEVELOPMENT_TEAM = JTAWTT5K7Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Akeyreu/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "So we sell it, no problem";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need to know if you sleep boi";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "We need access to your local network to find Roku devices.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need location services to find devices on your network.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "you dead or what ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amey.akeyreu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A866DEA52AEEAB5600A7A4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTAWTT5K7Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amey.akeyreu.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Akeyreu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Akeyreu";
+			};
+			name = Debug;
+		};
+		A866DEA62AEEAB5600A7A4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTAWTT5K7Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amey.akeyreu.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Akeyreu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Akeyreu";
+			};
+			name = Release;
+		};
+		A866DEA82AEEAB5600A7A4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTAWTT5K7Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amey-akeyreuuitests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Akeyreu;
+			};
+			name = Debug;
+		};
+		A866DEA92AEEAB5600A7A4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTAWTT5K7Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amey-akeyreuuitests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Akeyreu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76BB01352C88C6B2000E487F /* Build configuration list for PBXNativeTarget "RokuTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76BB01332C88C6B2000E487F /* Debug */,
+				76BB01342C88C6B2000E487F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A822F17F2B0AB0CE00B583E7 /* Build configuration list for PBXNativeTarget "AkWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A822F1792B0AB0CE00B583E7 /* Debug */,
+				A822F17A2B0AB0CE00B583E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A822F1802B0AB0CE00B583E7 /* Build configuration list for PBXNativeTarget "AkWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A822F17B2B0AB0CE00B583E7 /* Debug */,
+				A822F17C2B0AB0CE00B583E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A822F1812B0AB0CE00B583E7 /* Build configuration list for PBXNativeTarget "AkWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A822F17D2B0AB0CE00B583E7 /* Debug */,
+				A822F17E2B0AB0CE00B583E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A866DE732AEEAB5500A7A4F4 /* Build configuration list for PBXProject "Akeyreu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A866DE9F2AEEAB5600A7A4F4 /* Debug */,
+				A866DEA02AEEAB5600A7A4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A866DEA12AEEAB5600A7A4F4 /* Build configuration list for PBXNativeTarget "Akeyreu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A866DEA22AEEAB5600A7A4F4 /* Debug */,
+				A866DEA32AEEAB5600A7A4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A866DEA42AEEAB5600A7A4F4 /* Build configuration list for PBXNativeTarget "AkeyreuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A866DEA52AEEAB5600A7A4F4 /* Debug */,
+				A866DEA62AEEAB5600A7A4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A866DEA72AEEAB5600A7A4F4 /* Build configuration list for PBXNativeTarget "AkeyreuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A866DEA82AEEAB5600A7A4F4 /* Debug */,
+				A866DEA92AEEAB5600A7A4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		764456F72CBDD0B200B3DA0F /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/robbiehanson/CocoaAsyncSocket";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.6.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		764456F82CBDD0CE00B3DA0F /* CocoaAsyncSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 764456F72CBDD0B200B3DA0F /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */;
+			productName = CocoaAsyncSocket;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		A866DE862AEEAB5600A7A4F4 /* Akeyreu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A866DE872AEEAB5600A7A4F4 /* Akeyreu.xcdatamodel */,
+			);
+			currentVersion = A866DE872AEEAB5600A7A4F4 /* Akeyreu.xcdatamodel */;
+			path = Akeyreu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A866DE702AEEAB5500A7A4F4 /* Project object */;
+}
