@@ -13,7 +13,7 @@
 		764456F92CBDD0CE00B3DA0F /* CocoaAsyncSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 764456F82CBDD0CE00B3DA0F /* CocoaAsyncSocket */; };
 		76A110DF2C011178007CD77E /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A110DE2C011178007CD77E /* DataView.swift */; };
 		76A110E12C01180C007CD77E /* OverallDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A110E02C01180C007CD77E /* OverallDataView.swift */; };
-		76BB01282C7680E6000E487F /* RokuTVControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB01272C7680E6000E487F /* RokuTVControl.swift */; };
+		76BB01282C7680E6000E487F /* RokuControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB01272C7680E6000E487F /* RokuControl.swift */; };
 		76BB01372C88C70C000E487F /* RokuTVControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB01362C88C70C000E487F /* RokuTVControlTests.swift */; };
 		76EE5BA12D3867F20027ACBF /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE5BA02D3867E60027ACBF /* ColorExtension.swift */; };
 		76EE5DA72D416E900027ACBF /* DeviceControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE5DA42D416E900027ACBF /* DeviceControlView.swift */; };
@@ -183,7 +183,7 @@
 		764456F52CBDD05C00B3DA0F /* RokuScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RokuScanner.swift; sourceTree = "<group>"; };
 		76A110DE2C011178007CD77E /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
 		76A110E02C01180C007CD77E /* OverallDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverallDataView.swift; sourceTree = "<group>"; };
-		76BB01272C7680E6000E487F /* RokuTVControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RokuTVControl.swift; sourceTree = "<group>"; };
+		76BB01272C7680E6000E487F /* RokuControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RokuControl.swift; sourceTree = "<group>"; };
 		76BB012D2C88C6B2000E487F /* RokuTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RokuTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76BB01362C88C70C000E487F /* RokuTVControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RokuTVControlTests.swift; sourceTree = "<group>"; };
 		76EE5BA02D3867E60027ACBF /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
@@ -286,7 +286,7 @@
 				764456F52CBDD05C00B3DA0F /* RokuScanner.swift */,
 				760624C02CA393AF008C7454 /* FindRokuIPView.swift */,
 				763FB2212C9B80CD001EF171 /* RokuDiscovery.swift */,
-				76BB01272C7680E6000E487F /* RokuTVControl.swift */,
+				76BB01272C7680E6000E487F /* RokuControl.swift */,
 			);
 			path = RokuTV;
 			sourceTree = "<group>";
@@ -302,8 +302,9 @@
 		76EE5DA62D416E900027ACBF /* DeviceControl */ = {
 			isa = PBXGroup;
 			children = (
-				76EE5DA42D416E900027ACBF /* DeviceControlView.swift */,
 				76EE5DA52D416E900027ACBF /* DeviceDiscoveryView.swift */,
+				76EE5DA42D416E900027ACBF /* DeviceControlView.swift */,
+				76BB01242C767FA1000E487F /* RokuTV */,
 			);
 			path = DeviceControl;
 			sourceTree = "<group>";
@@ -400,7 +401,6 @@
 			children = (
 				76EE5DAD2D4173F60027ACBF /* AlarmControl */,
 				76EE5DA62D416E900027ACBF /* DeviceControl */,
-				76BB01242C767FA1000E487F /* RokuTV */,
 				76EE5DA92D416E980027ACBF /* SleepData */,
 				A866DE7B2AEEAB5500A7A4F4 /* AkeyreuApp.swift */,
 				76EE5DB82D4175F50027ACBF /* MainMenuView.swift */,
@@ -760,7 +760,7 @@
 				76EE5DB52D4174BB0027ACBF /* AddAlarmView.swift in Sources */,
 				A866DE882AEEAB5600A7A4F4 /* Akeyreu.xcdatamodeld in Sources */,
 				A809B2B22B2EAF18007EC1B0 /* Delegates.swift in Sources */,
-				76BB01282C7680E6000E487F /* RokuTVControl.swift in Sources */,
+				76BB01282C7680E6000E487F /* RokuControl.swift in Sources */,
 				A809B2B42B2EAF47007EC1B0 /* Network.swift in Sources */,
 				76EE5BA12D3867F20027ACBF /* ColorExtension.swift in Sources */,
 				76A110DF2C011178007CD77E /* DataView.swift in Sources */,

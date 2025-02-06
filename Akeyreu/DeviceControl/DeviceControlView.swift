@@ -200,11 +200,11 @@ struct DeviceControlView: View {
             ToolbarItem(placement: .principal) {
                 Text(navName)
                     .font(.headline)
-                    .foregroundColor(.black)
+                    .foregroundColor(.white)
             }
         }
         .navigationBarTitleDisplayMode(.inline)
-        .background(Color(hex: "#FFFFFF"))
+//        .background(Color(hex: "#035aa6"))
     }
     
     private func scheduleTurnOff() {
