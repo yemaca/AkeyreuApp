@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct MainMenuView: View {
+    @StateObject private var alarmManager = AlarmManager()
+    
     var body: some View {
         NavigationView {
             VStack(spacing: 20) {
@@ -22,7 +24,7 @@ struct MainMenuView: View {
                 }
 
                 // Button to navigate to Alarm List View
-                NavigationLink(destination: AlarmListView()) {
+                NavigationLink(destination: AlarmListView(alarmManager: alarmManager)) {
                     Text("Go to Alarm View")
                         .padding()
                         .frame(maxWidth: .infinity)

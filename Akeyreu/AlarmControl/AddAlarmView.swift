@@ -11,6 +11,9 @@ struct AddAlarmView: View {
     @ObservedObject var alarmManager: AlarmManager
     @State private var selectedTime = Date()
     @State private var repeatDays: [String] = []
+    @State private var selectedSound = "Bell"
+    
+    let availableSounds = ["Bell", "Dream", "Pleasant"]
 
     @Environment(\.dismiss) var dismiss
 
@@ -38,12 +41,21 @@ struct AddAlarmView: View {
                         }
                     }
                 }
+                
+                Section(header: Text("Alarm Sound")) {
+                    Picker("Select Sound", selection: $selectedSound) {
+                        ForEach(availableSounds, id: \.self) { sound in
+                            Text(sound)
+                        }
+                    }
+                    .pickerStyle(.menu)
+                }
             }
             .navigationTitle("Add Alarm")
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Save") {
-                        alarmManager.addAlarm(time: selectedTime, repeatDays: repeatDays)
+                        alarmManager.addAlarm(time: selectedTime, repeatDays: repeatDays, sound: selectedSound)
                         dismiss()
                     }
                 }
