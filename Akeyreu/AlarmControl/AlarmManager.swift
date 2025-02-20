@@ -34,8 +34,8 @@ class AlarmManager: ObservableObject {
     }
 
     // Add a new alarm
-    func addAlarm(time: Date, repeatDays: [String]) {
-        let newAlarm = Alarm(time: time, isEnabled: true, repeatDays: repeatDays)
+    func addAlarm(time: Date, repeatDays: [String], sound: String) {
+        let newAlarm = Alarm(time: time, isEnabled: true, repeatDays: repeatDays, sound: sound)
         alarms.append(newAlarm)
         scheduleNotification(for: newAlarm)
     }
@@ -62,7 +62,7 @@ class AlarmManager: ObservableObject {
         let content = UNMutableNotificationContent()
         content.title = "Alarm"
         content.body = "Time to wake up!"
-        content.sound = UNNotificationSound(named: UNNotificationSoundName(rawValue: "bell.mp3"))
+        content.sound = UNNotificationSound(named: UNNotificationSoundName(rawValue: alarm.sound + ".wav"))
 
         // Trigger for the alarm time
         let triggerDate = Calendar.current.dateComponents([.hour, .minute], from: alarm.time)
@@ -85,6 +85,15 @@ class AlarmManager: ObservableObject {
     func cancelNotification(for alarm: Alarm) {
         UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: [alarm.id.uuidString])
         print("Notification canceled for alarm at \(alarm.time).")
+    }
+    
+    // Update already existing alarm
+    func updateAlarm(at index: Int, time: Date, repeatDays: [String], sound: String) {
+        alarms[index].time = time
+        alarms[index].repeatDays = repeatDays
+        alarms[index].sound = sound
+        saveAlarms()
+        scheduleNotification(for: alarms[index])
     }
 
     // Save alarms to UserDefaults

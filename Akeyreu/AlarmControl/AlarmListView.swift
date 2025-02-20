@@ -8,52 +8,51 @@
 import SwiftUI
 
 struct AlarmListView: View {
-    @StateObject private var alarmManager = AlarmManager()
-    @State private var showingAddAlarmScreen = false
+    @ObservedObject var alarmManager: AlarmManager
+    @State private var selectedAlarmIndex: Int?
 
     var body: some View {
         NavigationView {
-            VStack {
-                List {
-                    ForEach(alarmManager.alarms.indices, id: \.self) { index in
-                        AlarmRow(alarm: $alarmManager.alarms[index])
-                    }
-                    .onDelete { indexSet in
-                        indexSet.forEach { alarmManager.removeAlarm(at: $0) }
+            List {
+                ForEach(alarmManager.alarms.indices, id: \.self) { index in
+                    NavigationLink(destination: EditAlarmView(alarmManager: alarmManager, alarmIndex: index)) {
+                        HStack {
+                            VStack(alignment: .leading) {
+                                Text("\(formattedTime(alarmManager.alarms[index].time))")
+                                    .font(.headline)
+                                Text(alarmManager.alarms[index].repeatDays.isEmpty ? "One-time alarm" : alarmManager.alarms[index].repeatDays.joined(separator: ", "))
+                                    .font(.subheadline)
+                                    .foregroundColor(.gray)
+                            }
+                            Spacer()
+                            Toggle("", isOn: Binding(
+                                get: { alarmManager.alarms[index].isEnabled },
+                                set: { _ in alarmManager.toggleAlarm(at: index) }
+                            ))
+                        }
                     }
                 }
-                .listStyle(PlainListStyle())
-
-                Button(action: {
-                    showingAddAlarmScreen = true
-                }) {
-                    Text("Add Alarm")
-                        .padding()
-                        .frame(maxWidth: .infinity)
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .cornerRadius(8)
+                .onDelete { indexSet in
+                    indexSet.forEach { index in
+                        alarmManager.removeAlarm(at: index)
+                    }
                 }
-                .padding()
             }
             .navigationTitle("Alarms")
-            .sheet(isPresented: $showingAddAlarmScreen) {
-                AddAlarmView(alarmManager: alarmManager)
+            .toolbar {
+                ToolbarItem(placement: .primaryAction) {
+                    NavigationLink(destination: AddAlarmView(alarmManager: alarmManager)) {
+                        Image(systemName: "plus")
+                    }
+                }
             }
         }
     }
-}
 
-struct AlarmRow: View {
-    @Binding var alarm: Alarm
-
-    var body: some View {
-        HStack {
-            Text(alarm.time, style: .time)
-                .font(.headline)
-            Spacer()
-            Toggle("", isOn: $alarm.isEnabled)
-        }
-        .padding()
+    // Format time for display
+    func formattedTime(_ date: Date) -> String {
+        let formatter = DateFormatter()
+        formatter.timeStyle = .short
+        return formatter.string(from: date)
     }
 }

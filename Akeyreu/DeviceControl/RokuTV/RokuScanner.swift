@@ -6,7 +6,8 @@
 //
 
 /*
- this version scans
+ tries to find roku using ssdp
+ manually scans each ip if ssdp has no result
  */
 import CocoaAsyncSocket
 
@@ -156,7 +157,8 @@ class RokuScanner: NSObject, GCDAsyncUdpSocketDelegate {
 
 /*
  old version using multicast (ssdp) scanning
- did not work on my wifi bc it blocks it
+ did not work on my phone bc wifi blocks
+ did work on laptop
  */
 //
 //import CocoaAsyncSocket
