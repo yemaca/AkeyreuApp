@@ -39,13 +39,13 @@ struct RokuDeviceControlView: View {
                     }
                 
                 HStack {
-                    Button(action: {
-                        print(device.identifier)
-                    }) {
-                        Text("ID")
-                            .foregroundColor(.blue)
-                    }
-                    .padding()
+                    // Button(action: {
+                    //     print(device.identifier)
+                    // }) {
+                    //     Text("ID")
+                    //         .foregroundColor(.blue)
+                    // }
+                    // .padding()
                     
                     Button(action: {
                         device.togglePower { success in
